@@ -1,0 +1,118 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../img/background.jpg"); /* Use the same background as the index page */
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    padding: 20px;
+    width:20rem;
+    background: rgba(4, 7, 16, 0.749); ; 
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(2, 46, 223, 0.5);;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: rgba(7, 14, 30, 0.9); /* Slightly transparent white for the card background */
+}
+
+.card-header {
+    background-color: #53d771; /* Match the button hover color for consistency */
+    color: rgb(4, 10, 14);
+    text-align: center;
+    padding: 15px;
+    font-size:1.2rem;
+    font-weight:bolder;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+h3 {
+    margin: 0;
+    padding: 10px 0;
+    color: #131414;
+}
+h4{
+    color:rgb(255, 216, 255);
+    font-size:1.5rem;
+
+}
+h4 span{
+    color:rgb(243, 7, 70);
+    font-size:2rem;
+}
+
+h5 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+ul.list-group {
+    padding: 0;
+    list-style: none;
+    background: rgba(2, 18, 102, 0.685); /* Slightly transparent white background for the list */
+    border-radius: 5px;
+    overflow: hidden;
+    font-size:1.1rem;
+}
+
+ul.list-group li {
+    background-color: rgba(9, 40, 112, 0.811); /* Matches the select background in the form */
+    color: white;
+    padding: 10px;
+    border-bottom: 4px solid #07021b;
+}
+
+ul.list-group li:last-child {
+    border-bottom: none;
+}
+
+.text-center {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn {
+    text-decoration:none;
+    font-style:none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #d17813f1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #f4a805;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  body{
+    background-image: url("../img/bg2.jpg"); 
+  }
+    ul.list-group{
+        font-size:1.2rem;
+    }
+}
+

@@ -16,7 +16,7 @@ def index():
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    if request.method == 'POST':
+    if request.method == 'POST':  
 
         features = [
             float(request.form['industrial_risk']),

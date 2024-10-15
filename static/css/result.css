@@ -7,13 +7,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url("../img/background.jpg"); /* Use the same background as the index page */
+    background-image: url("../img/background.jpg"); 
     background-size: cover;
     background-position: center center; 
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
+ 
 .container {
     padding: 20px;
     width:20rem;
@@ -26,11 +26,11 @@ body {
 .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    background-color: rgba(7, 14, 30, 0.9); /* Slightly transparent white for the card background */
+    background-color: rgba(7, 14, 30, 0.9);
 }
 
 .card-header {
-    background-color: #53d771; /* Match the button hover color for consistency */
+    background-color: #53d771; 
     color: rgb(4, 10, 14);
     text-align: center;
     padding: 15px;
@@ -66,14 +66,13 @@ h5 {
 ul.list-group {
     padding: 0;
     list-style: none;
-    background: rgba(2, 18, 102, 0.685); /* Slightly transparent white background for the list */
-    border-radius: 5px;
+    background: rgba(2, 18, 102, 0.685); 
     overflow: hidden;
     font-size:1.1rem;
 }
 
 ul.list-group li {
-    background-color: rgba(9, 40, 112, 0.811); /* Matches the select background in the form */
+    background-color: rgba(9, 40, 112, 0.811); 
     color: white;
     padding: 10px;
     border-bottom: 4px solid #07021b;
